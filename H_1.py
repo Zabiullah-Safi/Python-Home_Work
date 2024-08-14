@@ -1,3 +1,28 @@
+
+# 11: Create a class Account with private attributes balance. Provide public methods to deposit
+# and withdraw money.
+
+class Account:
+    def __init__(self, balance):
+        self.__balance = balance
+    
+    def deposit(sefl, deposit):
+        self.__balance += deposit
+
+    def withdraw(self, withdraw):
+        sefl.__balance -= withdraw
+    
+    def get(self):
+        return self.__balance
+
+account = Account(50000)
+account.deposit(4000)
+account.withdraw(10000)
+print(account.get())
+
+
+
+
 # factorial
 
 def factorial(n):
